@@ -1,5 +1,4 @@
-  function extractNumbers(tab) {
-    const lines = [
+ const lines = [
       ["oneight", 18],
       ["twone", 21],
       ["threeight", 38],
@@ -18,3 +17,4 @@
       ["eight", 8],
       ["nine", 9],
     ];
+  
