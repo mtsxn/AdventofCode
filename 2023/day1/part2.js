@@ -1,4 +1,5 @@
- const lines = [
+function extractNumbers(tab) {
+  const lines = [
       ["oneight", 18],
       ["twone", 21],
       ["threeight", 38],
@@ -17,4 +18,7 @@
       ["eight", 8],
       ["nine", 9],
     ];
+  const replaceWord = (str) => {
   
+  }
+}
