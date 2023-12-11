@@ -19,6 +19,10 @@ function extractNumbers(tab) {
       ["nine", 9],
     ];
   const replaceWord = (str) => {
-  
+    for (const [word, number] of lines) {
+      while (str.includes(word)){
+        
+      }
+    }
   }
 }
