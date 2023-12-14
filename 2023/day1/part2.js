@@ -26,5 +26,5 @@ function extractNumbers(tab) {
     }
     return str;
   }
-  return tab(replaceWord);
+  return tab.map(replaceWord);
 }
