@@ -1,5 +1,5 @@
   let tab = [
-        
+        // puzle input here 
   ];
   let sum = 0;
 
