@@ -1,10 +1,11 @@
 const tab = [
       // puzzle input here
   ];
+
   const originalArray = tab;
   const array = extractNumbers(originalArray);
-  
   let sum = 0;
+
   for (let i = 0; i < array.length; i++) {
     let firstDigit = null;
     let lastDigit = null;
@@ -22,6 +23,7 @@ const tab = [
       sum += parseInt(firstDigit + lastDigit);
     }
   }
+
   function extractNumbers(tab) {
     const lines = [
       ["oneight", 18],
