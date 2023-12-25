@@ -8,5 +8,7 @@ const input = [
 
   let result = 0;
 for (let i = 0; i < input.length; i++){
-
+    const game = input[i]
+      .split(": ")[1]
+      .split("; ")
 }
