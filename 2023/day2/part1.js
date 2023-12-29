@@ -11,6 +11,9 @@ for (let i = 0; i < input.length; i++){
     const game = input[i]
       .split(": ")[1]
       .split("; ")
-    const result = { red: 0, green: 0, blue: 0 };
-    const [count, color] = object.split(" ");
-}
+      .map((x) => {
+        const result = { red: 0, green: 0, blue: 0 };
+        x.split(", ").forEach((object) => {
+          const [count, color] = object.split(" ");
+          result[color] = parseInt(count);
+        });
