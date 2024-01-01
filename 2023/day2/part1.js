@@ -21,3 +21,6 @@ for (let i = 0; i < input.length; i++){
         
     const redMax = Math.max(...game.map((x) => x.red));
     const greenMax = Math.max(...game.map((x) => x.green));
+    const blueMax = Math.max(...game.map((x) => x.blue));
+}
+console.log(result);
