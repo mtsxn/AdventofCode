@@ -13,8 +13,9 @@ for (let i = 0; i < input.length; i++){
           const [count, color] = object.split(" ");
           result[color] = parseInt(count);
         });
+                  
         return result;
-        });
+      });
         
     const redMax = Math.max(...game.map((x) => x.red));
     const greenMax = Math.max(...game.map((x) => x.green));
