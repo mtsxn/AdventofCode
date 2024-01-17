@@ -7,8 +7,10 @@ function part2() {
     let red = 0;
     let green = 0;
     let blue = 0;
+
     
-    //puzzle is still simple, let's just split on spaces
     let y = x.split(' ');
+    for (let i = 3; i < y.length; i++) {
+    
   });
 }
