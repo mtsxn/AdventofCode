@@ -12,6 +12,9 @@ function part2() {
     let y = x.split(' ');
     for (let i = 3; i < y.length; i++) {
       let temp = Number(y[i - 1]);
+      
+      if (y[i].match(/^red/g)) red = red > temp ? red : temp;
+      else if (y[i].match(/^green/g)) green = green > temp ? green : temp;
     
   });
 }
