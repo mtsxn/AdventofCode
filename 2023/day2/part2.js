@@ -15,6 +15,6 @@ function part2() {
       
       if (y[i].match(/^red/g)) red = red > temp ? red : temp;
       else if (y[i].match(/^green/g)) green = green > temp ? green : temp;
-    
+      else if (y[i].match(/^blue/g)) blue = blue > temp ? blue : temp
   });
 }
